@@ -1,6 +1,10 @@
 module ActionView
   module TemplateHandlers
     class Prawn < TemplateHandler
+      def self.register!
+        Template.register_template_handler :prawn, self
+      end
+      
       include Compilable
       
       def compile(template)
@@ -21,5 +25,3 @@ module ActionView
     end
   end
 end
-
-ActionView::Template.register_template_handler :prawn, ActionView::TemplateHandlers::Prawn

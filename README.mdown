@@ -24,7 +24,7 @@ For example, the following code with formal calls:
 
 Is equivalent to this one with lazy calls:
 
-    bounding_box [100,600], :width => 200 do
+    bounding_box [100, 600], :width => 200 do
       text "The rain in spain falls mainly on the plains " * 5
       stroke do
         line bounds.top_left,    bounds.top_right
