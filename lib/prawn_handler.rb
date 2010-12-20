@@ -4,10 +4,8 @@ module ActionView
       def self.register!
         Template.register_template_handler :prawn, self
       end
-      
-      include Compilable
-      
-      def compile(template)
+            
+      def self.call(template)
         %(extend #{DocumentProxy}; #{template.source}; pdf.render)
       end
       
@@ -25,3 +23,5 @@ module ActionView
     end
   end
 end
+
+ActionView::TemplateHandlers::Prawn.register!
