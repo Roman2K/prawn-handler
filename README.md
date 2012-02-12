@@ -37,7 +37,3 @@ There already exists [prawnto](http://cracklabs.com/prawnto) but it's too bloate
         end
 
     This is accomplished without `instance_eval`, so that access to instance variables set by the controller is retained.
-
-## Credits
-
-Written by [Roman Le Négrate](http://roman.flucti.com) ([contact](mailto:roman.lenegrate@gmail.com)). Released under the MIT-license: see the `LICENSE` file.
