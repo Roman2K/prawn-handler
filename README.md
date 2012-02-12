@@ -1,6 +1,6 @@
 # Prawn-handler
 
-A Rails template handler for PDF library [Prawn](http://prawn.majesticseacreature.com/). You can find a more detailed description in its [introduction article](http://roman.flucti.com/alternative-prawn-handler-for-rails).
+A Rails template handler for PDF library [Prawn](http://prawn.majesticseacreature.com/).
 
 There already exists [prawnto](http://cracklabs.com/prawnto) but it's too bloated for my taste. Prawn-handler is lightweight, simple, and less of a hassle to use.
 
