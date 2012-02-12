@@ -6,7 +6,7 @@ There already exists [prawnto](http://cracklabs.com/prawnto) but it's too bloate
 
 ## Installation
 
-    script/plugin install git://github.com/Roman2K/prawn-handler.git
+    script/plugin install <repo>
 
 ## Usage
 
